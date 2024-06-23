@@ -11,6 +11,7 @@ export class UserProfileEffects {
 
   constructor(private actions$: Actions, private http: HttpClient) {}
 
+  // calling api and calling reducers with values
   loadUserProfile$ = createEffect(() =>
     this.actions$.pipe(
       ofType(UserProfileActions.loadUserProfile),

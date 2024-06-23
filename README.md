@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## NGRX Store
+
+1. Create actions (https://github.com/RamadossE2313/Employee-Ngrx-Store/blob/main/src/ngrx-store/user-profile-store/user.profile.actions.ts)
+2. Create reducers (https://github.com/RamadossE2313/Employee-Ngrx-Store/blob/main/src/ngrx-store/user-profile-store/user.profile.reducers.ts)
+3. Creatae effects (If we want to load any data based on the api use effects)
+(https://github.com/RamadossE2313/Employee-Ngrx-Store/blob/main/src/ngrx-store/user-profile-store/user.profile.effects.ts)
+
