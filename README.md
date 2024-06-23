@@ -28,6 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NGRX Store
 
+## Packages:
+1. npm install @ngrx/store
+2. npm install @ngrx/effects
+
+## Files
 1. Create actions (https://github.com/RamadossE2313/Employee-Ngrx-Store/blob/main/src/ngrx-store/user-profile-store/user.profile.actions.ts)
 2. Create reducers (https://github.com/RamadossE2313/Employee-Ngrx-Store/blob/main/src/ngrx-store/user-profile-store/user.profile.reducers.ts)
 3. Creatae effects (If we want to load any data based on the api use effects)
